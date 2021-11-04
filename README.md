@@ -33,7 +33,11 @@ Interruptor de boton de encendido y apagado | Cables de puente
 
 La creación de el proyecto ya con todos nuestros materiales se realiza en 10 pasos:
 
+
 ## Limitaciones 
+
+* El sistema de notificación para tu Smartphone solo se puede enviar a traves de mac 
+* 
 
 ### Referencias 
 
