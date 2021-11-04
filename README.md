@@ -17,7 +17,19 @@ Para la realización de este proyecto se necesitan materiales de distintos tipos
 Rasberry Pi 3 Modelo B | Tarjeta de memoria micro SD
 -----------------------| --------------------------
 Fuente de alimentación para Rasberry Pi 3 | Estuche de plastico con apertura para modulo de camara 
+Modulo de camara de video para Pi | Altavoz con amplificador incorporado 
+Cable de 3 pines a hembra para altavoz | Microfono mini USB 
+Interruptor de boton de encendido y apagado | Cables de puente 
 
+2. **Aplicaciones de software y servicios en línea**
+
+* SDK de Seajei
+* Estiramiento  raspbian
+*  Generador de imagenes Rasberry Pi
+
+3. **Herramientas manuales y máquinas de fabricación**
+
+* Kit de soldador 
 
 
 ## Limitaciones 
