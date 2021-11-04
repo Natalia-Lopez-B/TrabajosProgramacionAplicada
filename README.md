@@ -31,6 +31,7 @@ Interruptor de boton de encendido y apagado | Cables de puente
 
 * Kit de soldador 
 
+La creación de el proyecto ya con todos nuestros materiales se realiza en 10 pasos:
 
 ## Limitaciones 
 
