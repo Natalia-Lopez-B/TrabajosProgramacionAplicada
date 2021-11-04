@@ -10,6 +10,16 @@ El proyecto en el que se basa este trabajo es un timbre intercomunicador con aud
 
 ## Procedimiento 
 
+Para la realización de este proyecto se necesitan materiales de distintos tipos:
+
+1.  **Componentes de Hardware**
+
+Rasberry Pi 3 Modelo B | Tarjeta de memoria micro SD
+-----------------------| --------------------------
+Fuente de alimentación para Rasberry Pi 3 | Estuche de plastico con apertura para modulo de camara 
+
+
+
 ## Limitaciones 
 
 ### Referencias 
