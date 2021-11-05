@@ -58,6 +58,15 @@ Conecte un monitor con el cable HDMI y conecte un mouse y un teclado USB. Luego 
 
 **_Paso tres: configure Pi para que se conecte a WiFi y haga que la cámara funcione correctamente_**
 
+Una vez que esté en funcionamiento, revise los diálogos iniciales y conéctese a WiFi. Luego haga clic en el ícono de Raspberry en la esquina superior izquierda, luego en "Preferencias", luego en "Configuración de Raspberry Pi". Luego haga clic en "Interfaces". Habilita la cámara. Haga clic en Aceptar y acepte para reiniciar. Para comprobar que la cámara funciona, abra una consola haciendo clic en el siguiente icono en la parte superior izquierda:
+
+![Imagen 6](https://hackster.imgix.net/uploads/attachments/1233011/screen_shot_2020-12-16_at_5_23_44_pm_10dAtVLK5I.png?auto=compress%2Cformat&w=740&h=555&fit=max)
+
+Escriba lo siguiente: **raspistill -o cam.jpg**
+
+Luego abra el Administrador de archivos haciendo clic en el siguiente ícono en la parte superior izquierda:
+
+
 
 
 ## Limitaciones 
