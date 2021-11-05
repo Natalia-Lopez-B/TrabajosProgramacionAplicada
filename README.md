@@ -66,7 +66,7 @@ Escriba lo siguiente: **raspistill -o cam.jpg**
 
 Luego abra el Administrador de archivos haciendo clic en el siguiente ícono en la parte superior izquierda:
 
-![Imagen 7] (https://hackster.imgix.net/uploads/attachments/1233013/screen_shot_2020-12-16_at_5_24_56_pm_mVycQYXAqc.png?auto=compress%2Cformat&w=740&h=555&fit=max)
+![Imagen 7](https://hackster.imgix.net/uploads/attachments/1233013/screen_shot_2020-12-16_at_5_24_56_pm_mVycQYXAqc.png?auto=compress%2Cformat&w=740&h=555&fit=max)
 
 Y haga doble clic en cam.jpg para comprobar si la imagen es correcta.
 
