@@ -66,6 +66,21 @@ Escriba lo siguiente: **raspistill -o cam.jpg**
 
 Luego abra el Administrador de archivos haciendo clic en el siguiente ícono en la parte superior izquierda:
 
+![Imagen 7] (https://hackster.imgix.net/uploads/attachments/1233013/screen_shot_2020-12-16_at_5_24_56_pm_mVycQYXAqc.png?auto=compress%2Cformat&w=740&h=555&fit=max)
+
+Y haga doble clic en cam.jpg para comprobar si la imagen es correcta.
+
+**_Paso cuatro: configure y verifique el altavoz_**
+
+Haga clic derecho en el icono de Volumen en la esquina superior derecha y seleccione "Analógico". Ahora haga clic izquierdo en el mismo icono de volumen y configure el volumen. Sugiero establecerlo en aproximadamente el 80%. A continuación, abramos una consola nuevamente y ejecutemos el siguiente comando:**speaker-test**, deberia esuchar ruido blando. Si desea escuchar un sonido adecuado, escriba el siguiente comando: **aplay /usr/share/sounds/alsa/Front_Center.wav** ahra deberias escuchar una voz humana.
+
+**_Paso cinco: configure el micrófono_**
+
+Vuelva a hacer clic con el botón derecho en el icono de volumen y luego haga clic en "Configuración del dispositivo USB". Luego haga clic en el menú desplegable "Tarjeta de sonido" y seleccione "Dispositivo de sonido USB PnP". Haga clic en "Seleccionar controles ..." y seleccione "Micrófono" y "Control automático de ganancia, luego haga clic en" Cerrar ". Ahora configure el control deslizante del micrófono en aproximadamente el 80% también y haga clic en Aceptar. Puede encontrar que el micrófono es bastante malo y crea bastante ruido blanco. Siempre puede volver a esta configuración y reducir el control deslizante, pero luego tendrá más dificultades para escuchar los sonidos del timbre. En este punto, nuestra raspberry pi está correctamente construida y configurada, por lo que es hora de encargarse del software.
+
+**_Paso seis: descargue el SDK de Seajei y ejecute la muestra de Raspberry Pi_**
+
+
 
 
 
