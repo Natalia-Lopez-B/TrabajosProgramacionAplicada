@@ -90,6 +90,12 @@ Ahora vamos a poner en marcha la aplicación de iOS. Supongo que ya tiene XCode
 
 **_Paso ocho: haga que las notificaciones push de iOS funcionen_**
 
+Nota rápida: para que las notificaciones funcionen, necesitará un dispositivo iOS. No funcionarán si ejecuta la aplicación de demostración en el simulador.Vuelva al SDK de Seajei y abra el archivo SeajeiDeveloperGuideIOS.pdf . Allí, vaya a las notificaciones automáticas en la parte inferior. Sigue todos los pasos para que al final tengas un archivo .p12. Envíelo a support@seajei.com, y se comunicarán con usted con un token para usar. A mí me tomó menos de un día. Una vez que haya recibido el nuevo token, que es solo una cadena, vuelva a su Raspberry Pi, abra una consola y vaya al programa de muestra de Timbre: **cd Desktop/Seajei-3.1.8/SamplePrograms/RaspberryPi/Doorbell**, Edite doorbell.c con su editor favorito. Uno agradable y simple de usar es geany. Sólo tipo: **geany doorbell.c** Luego, desplácese un poco hacia abajo hasta el token de la empresa y reemplace el token de prueba gratuito con el nuevo.Guarde, salga y vuelva a ejecutar el script build_pi_3_4.sh. A continuación, vuelva a ejecutar el programa de timbre.A continuación, vuelva a su aplicación de demostración de iOS para reemplazar el token allí también. Se encuentra en el archivo PhoneAppViewController.m. Desplácese hacia abajo un poco para encontrarlo.Vuelva a compilar y ejecutar la aplicación. Ingrese el ID del dispositivo nuevamente. Si ya está allí, parece que aún necesita hacer clic en él y luego cerrar el cuadro de diálogo donde lo configuró o, de lo contrario, es posible que no funcione. Ahora presione el botón Pi y debería ver la notificación.
+
+![Imagen 8](https://hackster.imgix.net/uploads/attachments/1233041/screen_shot_2020-12-16_at_5_49_20_pm_6YpvL3sqpu.png?auto=compress%2Cformat&w=740&h=555&fit=max)
+
+**_Paso nueve: haga que la muestra del timbre en Raspberry Pi se inicie automáticamente al encender_**
+
 
 
 
