@@ -33,6 +33,10 @@ Interruptor de boton de encendido y apagado | Cables de puente
 
 La creación de el proyecto ya con todos nuestros materiales se realiza en 10 pasos:
 
+_Paso uno: Preparar y ensamblar todos los componentes de hardware_
+
+Se toma la caja de plastico y se hacen los agujeros donde van a ir cada una de las piezas como se muestra en la siguiente imagen: 
+
 
 ## Limitaciones 
 
