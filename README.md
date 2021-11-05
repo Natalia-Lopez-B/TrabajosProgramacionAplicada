@@ -80,6 +80,16 @@ Vuelva a hacer clic con el botón derecho en el icono de volumen y luego haga cl
 
 **_Paso seis: descargue el SDK de Seajei y ejecute la muestra de Raspberry Pi_**
 
+Abra el navegador raspberry pi y escriba seajei.com . Desplácese un poco hacia abajo y haga clic en "Free SDK". En la página siguiente, desplácese un poco hacia abajo y haga clic en "Descargar SDK". Se descargará en su carpeta de Descargas. Abra el Administrador de archivos y vaya a la carpeta Descargas. Haga clic derecho en el archivo zip Seajei SDK, luego haga clic en extraer aquí. Luego, mueva la carpeta Seajei SDK al escritorio. A continuación, abra una consola y navegue hasta la demostración del timbre con el siguiente comando (ajuste si tiene una versión de SDK diferente): **cd Desktop/Seajei-3.1.8/SamplePrograms/RaspberryPi/Doorbell**, Mire lo que hay en README escribiendo: **cat README**, Luego, como se menciona allí, ejecute el comando sudo apt update, y copie, pegue el otro comando sudo apt y ejecútelo. Puede ejecutar todo en una línea así:**sudo apt update; sudo apt install libopus-dev libssl-dev portaudio19-dev**, Cuando haya terminado, ejecute el script de compilación para su Pi 3, que es el siguiente comando: **./build_pi_3_4.sh**, Y luego ejecute el ejecutable del timbre escribiendo: **./doorbell** Tome nota del ID del dispositivo, ya que lo necesitará para conectarse desde la aplicación iOS. En mi caso es "vmy9dj".
+
+Este es un buen momento para comprobar que el botón pi funciona. Haga clic varias veces en él y compruebe que aparece el mensaje "Botón activado".
+
+**_Paso siete: ejecute la muestra de iOS_**
+
+Ahora vamos a poner en marcha la aplicación de iOS. Supongo que ya tiene XCode y una cuenta de desarrollador con Apple. Vaya al mismo sitio seajei.com en su Mac y descargue el SDK .Descomprímalo y vaya a SamplePrograms / iOS / SeajeiDemoApp. Haga doble clic en el archivo de proyecto SeajeiDemoApp.xcodeproj para que se abra en XCode. Tendrá que configurar su equipo en firmas y capacidades para poder compilar. Luego seleccione su objetivo. Puede ser el simulador o un dispositivo iOS. Compila y ejecuta la aplicación.Una vez que la aplicación se ejecuta por primera vez, debe configurar el ID de dispositivo que vimos en el programa de muestra de Raspberry Pi. Para mí fue "vmy9dj". Pon lo que sea para ti. Luego haga clic en "CONECTAR" y debería funcionar. El video puede verse un poco raro en el simulador, así que lo mejor es ejecutar la aplicación en un dispositivo real.Desafortunadamente, en este punto, si presiona el botón Pi, no verá una notificación. Esto se debe a que las notificaciones requieren que su aplicación esté configurada en iTunes Connect. Entonces, para solucionarlo, ¡vayamos al siguiente paso!
+
+**_Paso ocho: haga que las notificaciones push de iOS funcionen_**
+
 
 
 
