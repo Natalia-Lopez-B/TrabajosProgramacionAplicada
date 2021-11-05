@@ -37,6 +37,17 @@ _Paso uno: Preparar y ensamblar todos los componentes de hardware_
 
 Se toma la caja de plastico y se hacen los agujeros donde van a ir cada una de las piezas como se muestra en la siguiente imagen: 
 
+![Imagen 2](https://hackster.imgix.net/uploads/attachments/1232973/01-holediagram_xm6I2h18WC.png?auto=compress%2Cformat&w=740&h=555&fit=max)
+
+Como opción personal se puede pintar o dejar trasparente, posteriormente se preparan los cables de altavoces cortandolos y volviendolos a soldar como se presenta a continuación: 
+
+![Imagen 3](https://hackster.imgix.net/uploads/attachments/1232980/screen_shot_2020-12-16_at_4_50_06_pm_TL5waIP77m.png?auto=compress%2Cformat&w=740&h=555&fit=max)
+
+A continuación, pele algunos cables de puente adicionales y conéctelos y suéldelos al botón, se instalan todos los componentes en la cubierta de la caja cuidando que esten en los lugares respctivos. Ahora, para la salida de audio, corte y pele otro cable de puente (macho para que se conecte con el cable hembra en el altavoz) y páselo por el orificio cerca del audio Y luego soldarlo al pin de salida de audio del conector de audio de 3,5 milímetros, en la siguiente imagen se puede ver la ubicación del pin de salida de audio **flecha roja**:
+
+![Imagen 4](https://hackster.imgix.net/uploads/attachments/1233001/screen_shot_2020-12-16_at_4_29_13_pm_Wq9DtxUDbA.png?auto=compress%2Cformat&w=740&h=555&fit=max)
+
+
 
 ## Limitaciones 
 
