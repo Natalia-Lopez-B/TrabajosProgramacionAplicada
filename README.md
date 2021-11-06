@@ -31,7 +31,7 @@ Interruptor de boton de encendido y apagado | Cables de puente
 
 * Kit de soldador 
 
-La creación de el proyecto ya con todos nuestros materiales se realiza en 10 pasos:
+La creación de el proyecto ya con todos nuestros materiales se realiza en 9 pasos:
 
 **_Paso uno: preparar y ensamblar todos los componentes de hardware_**
 
@@ -98,16 +98,14 @@ Nota rápida: para que las notificaciones funcionen, necesitará un dispositivo 
 
 Regrese a su Raspberry Pi y a la muestra del timbre: **cd Desktop/Seajei-3.1.8/SamplePrograms/RaspberryPi/Doorbel**, Y vuelva a mirar dentro de README con el comando cat README.
 
-Allí ves al final 4 comandos para ejecutar para que las cosas funcionen. Así que simplemente copie, pegue y ejecútelos todos. O simplemente ejecute este único comando largo: **cp doorbell /home/pi/Desktop; sudo cp raspidoorbell.service /lib/systemd/system;  sudo systemctl start raspidoorbell.service; sudo systemctl enable raspidoorbell.service**, Ejecute "sudo systemctl daemon-reload" si se le solicita.
-
-
+Allí ves al final 4 comandos para ejecutar para que las cosas funcionen. Así que simplemente copie, pegue y ejecútelos todos. O simplemente ejecute este único comando largo: **cp doorbell /home/pi/Desktop; sudo cp raspidoorbell.service /lib/systemd/system;  sudo systemctl start raspidoorbell.service; sudo systemctl enable raspidoorbell.service**, Ejecute "sudo systemctl daemon-reload" si se le solicita.¡Y eso es! Reinicie su Pi, y debería ver que la luz roja del módulo de la cámara se enciende automáticamente, lo que indica que el programa del timbre se está ejecutando.
 
 ## Limitaciones 
 
 * El sistema de notificación para tu Smartphone solo se puede enviar a traves de mac 
 * Para realizar el proyecto se debe contar con un desarrollador de Apple 
 * Requiere conocimiento en soldadura y el saber utilizar correctamente todos los instrumentos 
-* 
+* El microfono no es muy bueno y presenta ruidos lo que dificulta escuchar algunos sonidos del timbre
 
 ### Referencias 
 
