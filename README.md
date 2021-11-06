@@ -76,7 +76,7 @@ Haga clic derecho en el icono de Volumen en la esquina superior derecha y selecc
 
 **_Paso cinco: configure el micrófono_**
 
-Vuelva a hacer clic con el botón derecho en el icono de volumen y luego haga clic en "Configuración del dispositivo USB". Luego haga clic en el menú desplegable "Tarjeta de sonido" y seleccione "Dispositivo de sonido USB PnP". Haga clic en "Seleccionar controles ..." y seleccione "Micrófono" y "Control automático de ganancia, luego haga clic en" Cerrar ". Ahora configure el control deslizante del micrófono en aproximadamente el 80% también y haga clic en Aceptar. Puede encontrar que el micrófono es bastante malo y crea bastante ruido blanco. Siempre puede volver a esta configuración y reducir el control deslizante, pero luego tendrá más dificultades para escuchar los sonidos del timbre. En este punto, nuestra raspberry pi está correctamente construida y configurada, por lo que es hora de encargarse del software.
+Vuelva a hacer clic con el botón derecho en el icono de volumen y luego haga clic en "Configuración del dispositivo USB". Luego haga clic en el menú desplegable "Tarjeta de sonido" y seleccione "Dispositivo de sonido USB PnP". Haga clic en "Seleccionar controles ..." y seleccione "Micrófono" y "Control automático de ganancia, luego haga clic en" Cerrar ". Ahora configure el control deslizante del micrófono en aproximadamente el 80% también y haga clic en Aceptar. Puede encontrar que el micrófono es bastante malo y crea bastante ruido blanco.
 
 **_Paso seis: descargue el SDK de Seajei y ejecute la muestra de Raspberry Pi_**
 
@@ -86,7 +86,7 @@ Este es un buen momento para comprobar que el botón pi funciona. Haga clic vari
 
 **_Paso siete: ejecute la muestra de iOS_**
 
-Ahora vamos a poner en marcha la aplicación de iOS. Supongo que ya tiene XCode y una cuenta de desarrollador con Apple. Vaya al mismo sitio seajei.com en su Mac y descargue el SDK .Descomprímalo y vaya a SamplePrograms / iOS / SeajeiDemoApp. Haga doble clic en el archivo de proyecto SeajeiDemoApp.xcodeproj para que se abra en XCode. Tendrá que configurar su equipo en firmas y capacidades para poder compilar. Luego seleccione su objetivo. Puede ser el simulador o un dispositivo iOS. Compila y ejecuta la aplicación.Una vez que la aplicación se ejecuta por primera vez, debe configurar el ID de dispositivo que vimos en el programa de muestra de Raspberry Pi. Para mí fue "vmy9dj". Pon lo que sea para ti. Luego haga clic en "CONECTAR" y debería funcionar. El video puede verse un poco raro en el simulador, así que lo mejor es ejecutar la aplicación en un dispositivo real.Desafortunadamente, en este punto, si presiona el botón Pi, no verá una notificación. Esto se debe a que las notificaciones requieren que su aplicación esté configurada en iTunes Connect. Entonces, para solucionarlo, ¡vayamos al siguiente paso!
+Ahora vamos a poner en marcha la aplicación de iOS. Supongo que ya tiene XCode y una cuenta de desarrollador con Apple. Vaya al mismo sitio seajei.com en su Mac y descargue el SDK .Descomprímalo y vaya a SamplePrograms / iOS / SeajeiDemoApp. Haga doble clic en el archivo de proyecto SeajeiDemoApp.xcodeproj para que se abra en XCode. Tendrá que configurar su equipo en firmas y capacidades para poder compilar. Luego seleccione su objetivo. Puede ser el simulador o un dispositivo iOS. Compila y ejecuta la aplicación.Una vez que la aplicación se ejecuta por primera vez, debe configurar el ID de dispositivo que vimos en el programa de muestra de Raspberry Pi. Luego haga clic en "CONECTAR" y debería funcionar. El video puede verse un poco raro en el simulador, así que lo mejor es ejecutar la aplicación en un dispositivo real.
 
 **_Paso ocho: haga que las notificaciones push de iOS funcionen_**
 
@@ -96,13 +96,17 @@ Nota rápida: para que las notificaciones funcionen, necesitará un dispositivo 
 
 **_Paso nueve: haga que la muestra del timbre en Raspberry Pi se inicie automáticamente al encender_**
 
+Regrese a su Raspberry Pi y a la muestra del timbre: **cd Desktop/Seajei-3.1.8/SamplePrograms/RaspberryPi/Doorbel**, Y vuelva a mirar dentro de README con el comando cat README.
 
+Allí ves al final 4 comandos para ejecutar para que las cosas funcionen. Así que simplemente copie, pegue y ejecútelos todos. O simplemente ejecute este único comando largo: **cp doorbell /home/pi/Desktop; sudo cp raspidoorbell.service /lib/systemd/system;  sudo systemctl start raspidoorbell.service; sudo systemctl enable raspidoorbell.service**, Ejecute "sudo systemctl daemon-reload" si se le solicita.
 
 
 
 ## Limitaciones 
 
 * El sistema de notificación para tu Smartphone solo se puede enviar a traves de mac 
+* Para realizar el proyecto se debe contar con un desarrollador de Apple 
+* Requiere conocimiento en soldadura y el saber utilizar correctamente todos los instrumentos 
 * 
 
 ### Referencias 
